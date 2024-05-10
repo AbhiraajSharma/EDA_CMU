@@ -10,6 +10,7 @@ This workbook explores the CMU Movies Dataset along with their plot summaries an
 - [Introduction](#introduction)
 - [Data Sources](#data-sources)
 - [Libraries Used](#libraries-used)
+- [Plots](#plots)
 
 ## Introduction
 
