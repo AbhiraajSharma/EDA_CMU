@@ -96,32 +96,12 @@ For gender:
 - Null Hypothesis H0: There is no gender bias in the Oscar awards.
 - Alternate Hypothesis H1: There is an gender bias in the Oscar awards.
     Chi-square statistic: 1.6887729080027762
-    P-value: 0.1937628059033628
+    p-value: 0.1937628059033628
     There is no significant evidence to reject the null hypothesis, suggesting no gender bias in Oscar awards.
 
 For ethnicity
 - Null Hypothesis H0: There is no gender bias in the Oscar awards.
 - Alternate Hypothesis H1: There is an gender bias in the Oscar awards.
     Chi-square statistic: 424.58466211325265
-    P-value: 0.9562428913101307
+    p-value: 0.9562428913101307
     There is no significant evidence to reject the null hypothesis, suggesting no ethnicity bias in Oscar awards.
-
-For age:
-Optimization terminated successfully.
-         Current function value: 0.017832
-         Iterations 10
-                           Logit Regression Results                           
-==============================================================================
-Dep. Variable:              Won_Oscar   No. Observations:                93341
-Model:                          Logit   Df Residuals:                    93339
-Method:                           MLE   Df Model:                            1
-Date:                Fri, 10 May 2024   Pseudo R-squ.:               0.0002976
-Time:                        15:01:32   Log-Likelihood:                -1664.4
-converged:                       True   LL-Null:                       -1664.9
-Covariance Type:            nonrobust   LLR p-value:                    0.3195
-==============================================================================
-                 coef    std err          z      P>|z|      [0.025      0.975]
-------------------------------------------------------------------------------
-const         -5.7883      0.188    -30.791      0.000      -6.157      -5.420
-Age           -0.0047      0.005     -0.989      0.322      -0.014       0.005
-==============================================================================
