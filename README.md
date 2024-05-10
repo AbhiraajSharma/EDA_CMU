@@ -2,7 +2,7 @@
 
 ## Overview
 
-This workbook explores the CMU Movies Dataset along with their plot summaries and a list of oscars. It explores the distributions, patterns and nuances of the dataset, and then answer a set of questions through analysis of the data.
+This workbook explores the CMU Movies Dataset along with their plot summaries and a list of oscars. It explores the distributions, patterns and nuances of the dataset, and then answers a set of questions through analysis of the data.
 
 
 ## Table of Contents
