@@ -1,10 +1,3 @@
-README
-
-
-Sure, here's a revised outline without those sections:
-
----
-
 # Exploring the CMU Movie Data Corpus
 
 ## Overview
