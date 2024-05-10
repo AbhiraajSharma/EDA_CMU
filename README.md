@@ -11,17 +11,12 @@ This project explores the CMU Movie Data Corpus and aims to answer the following
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Usage](#usage)
 - [Data Sources](#data-sources)
-- [Technologies Used](#technologies-used)
+- [Libraries Used](#libraries-used)
 
 ## Introduction
 
 Provide instructions on how to install and set up the project locally. Include any dependencies or prerequisites that need to be installed, as well as any configuration steps necessary to get the project up and running.
-
-## Usage
-
-Explain how to use the project, including any command-line interfaces or graphical interfaces available. Provide examples or screenshots to illustrate the usage and demonstrate the main functionalities.
 
 ## Data Sources
 
@@ -30,7 +25,7 @@ Explain how to use the project, including any command-line interfaces or graphic
 3. plot_summaries.txt
 4. the_oscar_award.csv
 
-## Technologies Used
+## Libraries Used
 
 The project uses the following libraries for exploration:
 1. numpy
