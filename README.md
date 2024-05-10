@@ -2,10 +2,7 @@
 
 ## Overview
 
-This project explores the CMU Movie Data Corpus and aims to answer the following questions through the use of NLP, graph networks and regression
-1. Which actors are the most versatile in terms of number of other actors they have worked with?
-2. How does the revenue relate to the sentiment conveyed by the plots of movies?
-3. Are the oscars biased? Are they influenced by factors like gender, or ethnicity?
+This workbook explores the CMU Movies Dataset along with their plot summaries and a list of oscars. It explores the distributions, patterns and nuances of the dataset, and then answer a set of questions through analysis of the data.
 
 
 ## Table of Contents
@@ -16,7 +13,10 @@ This project explores the CMU Movie Data Corpus and aims to answer the following
 
 ## Introduction
 
-Provide instructions on how to install and set up the project locally. Include any dependencies or prerequisites that need to be installed, as well as any configuration steps necessary to get the project up and running.
+This project explores the CMU Movie Data Corpus and aims to answer the following questions through the use of NLP, graph networks and regression
+1. Which actors are the most versatile in terms of number of other actors they have worked with?
+2. How does the revenue relate to the sentiment conveyed by the plots of movies?
+3. Are the oscars biased? Are they influenced by factors like gender, or ethnicity?
 
 ## Data Sources
 
