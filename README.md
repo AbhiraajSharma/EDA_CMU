@@ -90,13 +90,13 @@ Top 10 Actors by versatility
 For gender:
 - Null Hypothesis H0: There is no gender bias in the Oscar awards.
 - Alternate Hypothesis H1: There is an gender bias in the Oscar awards.
-    Chi-square statistic: 1.6887729080027762
-    p-value: 0.1937628059033628
-    There is no significant evidence to reject the null hypothesis, suggesting no gender bias in Oscar awards.
+- Chi-square statistic: 1.6887729080027762
+- p-value: 0.1937628059033628
+- There is no significant evidence to reject the null hypothesis, suggesting no gender bias in Oscar awards.
 
 For ethnicity
 - Null Hypothesis H0: There is no gender bias in the Oscar awards.
 - Alternate Hypothesis H1: There is an gender bias in the Oscar awards.
-    Chi-square statistic: 424.58466211325265
-    p-value: 0.9562428913101307
-    There is no significant evidence to reject the null hypothesis, suggesting no ethnicity bias in Oscar awards.
+- Chi-square statistic: 424.58466211325265
+- p-value: 0.9562428913101307
+- There is no significant evidence to reject the null hypothesis, suggesting no ethnicity bias in Oscar awards.
