@@ -11,6 +11,7 @@ This workbook explores the CMU Movies Dataset along with their plot summaries an
 - [Data Sources](#data-sources)
 - [Libraries Used](#libraries-used)
 - [Plots](#plots)
+- [Answering the questions](#answering-the-questions)
 
 ## Introduction
 
