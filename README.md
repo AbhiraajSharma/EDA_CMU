@@ -38,8 +38,11 @@ The project uses the following libraries for exploration:
 4. networkx
 5. statsmodels.api
 6. seaborn
-7. sklearn
+7. operator
 8. spacy
+9. collections
+10. nltk
+11. regex
 
 
 ## Plots
@@ -107,7 +110,8 @@ An insight we derive from the betweenness centrality is that these actors have b
 - As such, these performers form a link between multiple industries and genres, hence the higher betweenness centrality.
 
 2. How does the revenue relate to the sentiment conveyed by the plots of movies?
-- By deriving the compound_sentiment from the plot summaries and plotting a scatter matrix of the sentiment and revenue, it is seen that movies with increasingly negative or positive sentiment in the plot summaries yield a larger revenue, with a neutral sentiment yielding lower revenue. 
+- By deriving the compound_sentiment from the plot summaries and plotting a scatter matrix of the sentiment and revenue, it is seen that movies with increasingly negative or positive sentiment in the plot summaries yield a larger revenue, with a neutral sentiment yielding lower revenue.
+  This shows that polarising movies garner more views and therefore, more revenue, while movies that are not   as emotionally involved end up yielding lower revenue
 
 3. Are the oscars biased? Are they influenced by factors like gender, or ethnicity?
 - Through chi-square tests, we concluded that the Oscars are not biased by gender or ethnicity, and we also used logistic regression to show that even an actor's age is not an influence.
