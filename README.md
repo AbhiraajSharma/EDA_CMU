@@ -27,6 +27,8 @@ This project explores the CMU Movie Data Corpus and aims to answer the following
 3. plot_summaries.txt
 4. the_oscar_award.csv
 
+Available at https://www.cs.cmu.edu/~ark/personas/ and https://www.kaggle.com/datasets/unanimad/the-oscar-award
+
 ## Libraries Used
 
 The project uses the following libraries for exploration:
@@ -39,7 +41,6 @@ The project uses the following libraries for exploration:
 7. sklearn
 8. spacy
 
----
 
 ## Plots
 
@@ -66,6 +67,9 @@ The project uses the following libraries for exploration:
 7. A similar plot of genres with the corresponding average revenue collected is made to understand which genres are the real cash-makers.
 - The drama genre makes 
 
+8. Plotting the degrees distribution of actors to view the distribution of how many actors other actors work with.
+- We see that less than a 50 actors in the dataset have worked with more than 100 actors. And actors who have worked with 
+
 ## Answering the questions
 
 1. Which actors are the most versatile in terms of working with other actors?
@@ -81,7 +85,26 @@ Top 10 Actors by versatility
 - Actor name: Paresh Rawal 		        # actors worked with: 330
 - Actor name: Christopher Walken 		# actors worked with: 329
 
+Additionally, we can also see the influence of each actor by calculating the betweenness centrality.
+Top 10 Actors by betweenness centrality
+- Anupam Kher has betweeness: 0.026973491850860565
+- Amrish Puri has betweeness: 0.012515111443165056
+- Ron Jeremy has betweeness: 0.012292365829665034
+- Ben Kingsley has betweeness: 0.012051570184735775
+- Samuel L. Jackson has betweeness: 0.011482158724960608
+- Irrfan Khan has betweeness: 0.011197851962216895
+- Naseeruddin Shah has betweeness: 0.010711666700862892
+- James Earl Jones has betweeness: 0.009952236641875858
+- Gulshan Grover has betweeness: 0.009602657294406212
+- Aishwarya Rai has betweeness: 0.009534410442781683 
 
+An insight we derive from the betweenness centrality is that these actors have been in movies of multiple film industries!
+- Anupam Kher has acted in movies like 'Bend It Like Beckham', and 'Silver Linings Playbook', both of which were nomiinated for Oscars.
+- Amrish Puri was in an Indiana Jones movie!
+- Samuel L. Jackson is part of the Marval franchise, and he's also starred in the all-time blockbuster Pulp Fiction
+- Irrfan Khan, aside from his Bollywood film career, has also starred in Life of Pi, Jurrasic World, Slumdog Millionaire, and Dan Brown's Inferno
+- Aishwarya Rai has too, worked with Steve Martin and Ben Kingsley through her career
+- As such, these performers form a link between multiple industries and genres, hence the higher betweenness centrality.
 
 2. How does the revenue relate to the sentiment conveyed by the plots of movies?
 - By deriving the compound_sentiment from the plot summaries and plotting a scatter matrix of the sentiment and revenue, it is seen that movies with increasingly negative or positive sentiment in the plot summaries yield a larger revenue, with a neutral sentiment yielding lower revenue. 
