@@ -20,6 +20,8 @@ The following questions are answered through analysis of data, making use of NLP
 2. How does the revenue relate to the sentiment conveyed by the plots of movies?
 3. Are the oscars biased? Are they influenced by factors like gender, or ethnicity?
 
+Aside from these questions, the project examines movie release distributions, revenue distributions, gender distributions, etc. present in the data. 
+
 ## Data Sources
 
 1. movie.metadata.tsv
